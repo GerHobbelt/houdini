@@ -7,10 +7,14 @@ extern "C" {
 
 #include <stdint.h>
 #include "buffer.h"
-
+#ifdef __GNUC__
 #define likely(x)       __builtin_expect((x),1)
 #define unlikely(x)     __builtin_expect((x),0)
-
+#else
+//http://stackoverflow.com/questions/1440570/likely-unlikely-equivalent-for-msvc
+#define likely
+#define unlikely
+#endif
 #ifdef HOUDINI_USE_LOCALE
 #	define _isxdigit(c) isxdigit(c)
 #	define _isdigit(c) isdigit(c)

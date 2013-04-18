@@ -11,8 +11,9 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+#ifdef __GNUC__
 #include <sys/param.h>
-
+#endif
 #include "buffer.h"
 
 /* Used as default value for gh_buf->ptr so that people can always

@@ -7,7 +7,22 @@
 #ifndef INCLUDE_buffer_h__
 #define INCLUDE_buffer_h__
 
+#ifdef _WIN32
+#define bool char
+#define true 1
+#define false 0
+/* Macros for min/max. */
+#ifndef MIN
+#define	MIN(a,b) (((a)<(b))?(a):(b))
+#endif /* MIN */#ifdef __GNUC__
+#ifndef MAX
+#define	MAX(a,b) (((a)>(b))?(a):(b))
+#endif	/* MAX */
+#define va_copy(d,s) ((d) = (s))
+#define inline __inline
+#else
 #include <stdbool.h>
+#endif
 #include <stddef.h>
 #include <stdarg.h>
 #include <sys/types.h>
@@ -103,8 +118,10 @@ extern int gh_buf_sets(gh_buf *buf, const char *string);
 extern int gh_buf_putc(gh_buf *buf, char c);
 extern int gh_buf_put(gh_buf *buf, const void *data, size_t len);
 extern int gh_buf_puts(gh_buf *buf, const char *string);
+#ifdef __GNUC__
 extern int gh_buf_printf(gh_buf *buf, const char *format, ...)
 	__attribute__((format (printf, 2, 3)));
+#endif
 extern int gh_buf_vprintf(gh_buf *buf, const char *format, va_list ap);
 extern void gh_buf_clear(gh_buf *buf);
 
