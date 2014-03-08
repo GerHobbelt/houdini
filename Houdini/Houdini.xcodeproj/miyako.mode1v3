@@ -213,10 +213,6 @@
 						<string>D19F7DB6171F9EBE0099B96B</string>
 						<key>PBXProjectModuleLabel</key>
 						<string>houdini_href_e.c</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>D19F7DD6171FA36D0099B96B</string>
 						<key>history</key>
 						<array>
 							<string>D19F7DAE171F9EA90099B96B</string>
@@ -315,13 +311,11 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 42}, {201, 445}}</string>
+							<string>{{0, 0}, {201, 445}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -368,7 +362,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D19F7DD5171FA36D0099B96B</string>
+										<string>D1077BA218434704004ABB92</string>
 										<key>history</key>
 										<array>
 											<string>D1494172171F7F3C009557A2</string>
@@ -382,7 +376,7 @@
 											<string>D14941F1171F8742009557A2</string>
 											<string>D14941F2171F8742009557A2</string>
 											<string>D19F7DAF171F9EBE0099B96B</string>
-											<string>D19F7DAD171F99550099B96B</string>
+											<string>D19F7DD5171FA36D0099B96B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -394,14 +388,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 269}}</string>
+								<string>{{0, 0}, {580, 260}}</string>
 								<key>RubberWindowFrame</key>
 								<string>275 347 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>269pt</string>
+							<string>260pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -409,19 +403,19 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20506471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>詳細</string>
+								<string>Detail</string>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 274}, {580, 189}}</string>
+								<string>{{0, 265}, {580, 198}}</string>
 								<key>RubberWindowFrame</key>
 								<string>275 347 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>189pt</string>
+							<string>198pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -440,9 +434,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D19F7DA7171F990E0099B96B</string>
+				<string>D1077BA318434704004ABB92</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D19F7DA8171F990E0099B96B</string>
+				<string>D1077BA418434704004ABB92</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -580,7 +574,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>D1494131171F79B2009557A2</string>
 		<string>/Users/miyako/github-miyako/4d-plugin-houdini/Houdini/Houdini.xcodeproj</string>
 	</array>
@@ -628,7 +621,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>XCMainBuildResultsModuleGUID</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ビルド結果</string>
+								<string>Build Results</string>
 								<key>XCBuildResultsTrigger_Collapse</key>
 								<integer>1021</integer>
 								<key>XCBuildResultsTrigger_Open</key>
@@ -662,7 +655,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D1494131171F79B2009557A2</string>
-				<string>D19F7DAC171F990E0099B96B</string>
+				<string>D1077BA518434704004ABB92</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
