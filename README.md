@@ -11,14 +11,14 @@ Commands
 
 ```c
 // --- Houdini
-Houdini_Escape_XML
-Houdini_Unescape_HTML
-Houdini_Escape_HTML
-Houdini_Escape_URI
-Houdini_Escape_URL
-Houdini_Escape_HREF
-Houdini_Unescape_URI
-Houdini_Unescape_URL
-Houdini_Escape_JS
-Houdini_Unescape_JS
+Houdini Escape XML
+Houdini Unescape HTML
+Houdini Escape HTML
+Houdini Escape URI
+Houdini Escape URL
+Houdini Escape HREF
+Houdini Unescape URI
+Houdini Unescape URL
+Houdini Escape JS
+Houdini Unescape JS
 ```
