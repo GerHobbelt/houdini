@@ -13,7 +13,6 @@
 ```
 success:=Houdini Escape XML (src;dst)
 success:=Houdini Unescape HTML (src;dst)
-success:=Houdini Escape HTML (src;dst)
 success:=Houdini Escape URI (src;dst)
 success:=Houdini Escape URL (src;dst)
 success:=Houdini Escape HREF (src;dst)
@@ -27,4 +26,15 @@ Parameter|Type|Description
 ------------|------------|----
 src|TEXT|
 dst|TEXT|
+success|LONGINT|
+
+```
+success:=Houdini Escape HTML (src;dst;option)
+```
+
+Parameter|Type|Description
+------------|------------|----
+src|TEXT|
+dst|TEXT|
+option|LONGINT|``Houdini Escape Forward Slash`` or ``0``
 success|LONGINT|
