@@ -11,14 +11,20 @@
 <img src="https://cloud.githubusercontent.com/assets/1725068/18940649/21945000-8645-11e6-86ed-4a0f800e5a73.png" width="32" height="32" /> <img src="https://cloud.githubusercontent.com/assets/1725068/18940648/2192ddba-8645-11e6-864d-6d5692d55717.png" width="32" height="32" />
 
 ```
-Houdini Escape XML
-Houdini Unescape HTML
-Houdini Escape HTML
-Houdini Escape URI
-Houdini Escape URL
-Houdini Escape HREF
-Houdini Unescape URI
-Houdini Unescape URL
-Houdini Escape JS
-Houdini Unescape JS
+success:=Houdini Escape XML (src;dst)
+success:=Houdini Unescape HTML (src;dst)
+success:=Houdini Escape HTML (src;dst)
+success:=Houdini Escape URI (src;dst)
+success:=Houdini Escape URL (src;dst)
+success:=Houdini Escape HREF (src;dst)
+success:=Houdini Unescape URI (src;dst)
+success:=Houdini Unescape URL (src;dst)
+success:=Houdini Escape JS (src;dst)
+success:=Houdini Unescape JS (src;dst)
 ```
+
+Parameter|Type|Description
+------------|------------|----
+src|TEXT|
+dst|TEXT|
+success|LONGINT|
