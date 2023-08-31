@@ -63,7 +63,7 @@ int gh_buf_try_grow(gh_buf *buf, size_t target_size, bool mark_oom)
 	/* round allocation up to multiple of 8 */
 	new_size = (new_size + 7) & ~7;
 
-	new_ptr = realloc(new_ptr, new_size);
+	new_ptr = (char *)realloc(new_ptr, new_size);
 
 	if (!new_ptr) {
 		if (mark_oom)

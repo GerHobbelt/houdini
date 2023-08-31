@@ -5,6 +5,18 @@
       <Filter>4D Plugin API</Filter>
     </ClCompile>
     <ClCompile Include="4DPlugin-Houdini.cpp" />
+    <ClCompile Include="4D Plugin API\Classes\C_BLOB.cpp" />
+    <ClCompile Include="4D Plugin API\Classes\C_LONGINT.cpp" />
+    <ClCompile Include="4D Plugin API\Classes\C_TEXT.cpp" />
+    <ClCompile Include="include\houdini\houdini_href_e.c" />
+    <ClCompile Include="include\houdini\houdini_html_e.c" />
+    <ClCompile Include="include\houdini\houdini_xml_e.c" />
+    <ClCompile Include="include\houdini\houdini_uri_u.c" />
+    <ClCompile Include="include\houdini\houdini_uri_e.c" />
+    <ClCompile Include="include\houdini\houdini_js_u.c" />
+    <ClCompile Include="include\houdini\houdini_js_e.c" />
+    <ClCompile Include="include\houdini\buffer.c" />
+    <ClCompile Include="include\houdini\houdini_html_u.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="4D Plugin API\4DPluginAPI.h">
@@ -23,6 +35,13 @@
       <Filter>4D Plugin API</Filter>
     </ClInclude>
     <ClInclude Include="4DPlugin-Houdini.h" />
+    <ClInclude Include="include\houdini\buffer.h" />
+    <ClInclude Include="4D Plugin API\Classes\C_BLOB.h" />
+    <ClInclude Include="4D Plugin API\Classes\C_LONGINT.h" />
+    <ClInclude Include="4D Plugin API\Classes\C_TEXT.h" />
+    <ClInclude Include="4D Plugin API\Classes\C_TYPES.h" />
+    <ClInclude Include="include\houdini\houdini.h" />
+    <ClInclude Include="include\houdini\html_unescape.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="4D Plugin API">

@@ -7,10 +7,14 @@
 #ifndef INCLUDE_buffer_h__
 #define INCLUDE_buffer_h__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #ifdef _WIN32
-#define bool char
-#define true 1
-#define false 0
+//#define bool char
+//#define true 1
+//#define false 0
 /* Macros for min/max. */
 #ifndef MIN
 #define	MIN(a,b) (((a)<(b))?(a):(b))
@@ -19,7 +23,7 @@
 #define	MAX(a,b) (((a)>(b))?(a):(b))
 #endif	/* MAX */
 #define va_copy(d,s) ((d) = (s))
-#define inline __inline
+//#define inline __inline
 #else
 #include <stdbool.h>
 #endif
@@ -126,5 +130,9 @@ extern int gh_buf_vprintf(gh_buf *buf, const char *format, va_list ap);
 extern void gh_buf_clear(gh_buf *buf);
 
 #define gh_buf_PUTS(buf, str) gh_buf_put(buf, str, sizeof(str) - 1)
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

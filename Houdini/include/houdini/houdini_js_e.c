@@ -58,7 +58,7 @@ houdini_escape_js(gh_buf *ob, const uint8_t *src, size_t size)
 			if (i && src[i - 1] == '<')
 				gh_buf_putc(ob, '\\');
 
-			gh_buf_putc(ob, ch);
+			gh_buf_putc(ob, (char)ch);
 			break;
 
 		case '\r':
@@ -78,7 +78,7 @@ houdini_escape_js(gh_buf *ob, const uint8_t *src, size_t size)
 			 * Normal escaping
 			 */
 			gh_buf_putc(ob, '\\');
-			gh_buf_putc(ob, ch);
+			gh_buf_putc(ob, (char)ch);
 			break;
 		}
 

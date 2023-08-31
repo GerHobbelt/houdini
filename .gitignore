@@ -3,4 +3,6 @@
 *~
 
 .DS_Store
-Houdini/build/Houdini.build/*
+Houdini/build/*
+Houdini/.vs/*
+Houdini/Objs/*

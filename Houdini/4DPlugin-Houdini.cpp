@@ -77,7 +77,7 @@ void Houdini_Escape_XML(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_escape_xml(&ob, src.c_str(), src.size());
     
@@ -106,7 +106,7 @@ void Houdini_Unescape_HTML(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_unescape_html(&ob, src.c_str(), src.size());
     
@@ -137,7 +137,7 @@ void Houdini_Escape_HTML(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_escape_html0(&ob, src.c_str(), src.size(), Param3.getIntValue());
     
@@ -166,7 +166,7 @@ void Houdini_Escape_URI(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_escape_uri(&ob, src.c_str(), src.size());
     
@@ -195,7 +195,7 @@ void Houdini_Escape_URL(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_escape_url(&ob, src.c_str(), src.size());
     
@@ -224,7 +224,7 @@ void Houdini_Escape_HREF(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_escape_href(&ob, src.c_str(), src.size());
     
@@ -253,7 +253,7 @@ void Houdini_Unescape_URI(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_unescape_uri(&ob, src.c_str(), src.size());
     
@@ -282,7 +282,7 @@ void Houdini_Unescape_URL(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_unescape_url(&ob, src.c_str(), src.size());
     
@@ -311,7 +311,7 @@ void Houdini_Escape_JS(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_escape_js(&ob, src.c_str(), src.size());
     
@@ -340,7 +340,7 @@ void Houdini_Unescape_JS(PA_PluginParameters params) {
     Param1.copyUTF8String(&src);
     
     gh_buf ob;
-    gh_buf_init(&ob, 0);
+    gh_buf_init(&ob, (size_t)0);
     
     int success = houdini_unescape_js(&ob, src.c_str(), src.size());
     
